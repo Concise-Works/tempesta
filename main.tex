@@ -1,26 +1,27 @@
 \documentclass{article}
 \input{Configs/configs}
 
-\title{Title}
-\author{Christian Rudder}
-\date{August 2024}
-
 \begin{document}
 
-\maketitle
+\noindent
+\textcolor{black!50}{\texttt{CS235: pset-1, Section 1 \#2, 7, 11, 14 (Due: September 12th)}}
 
-\tableofcontents
+\vspace{2em}
+\noindent
+\underline{\textbf{Exercise 1.2.}} Let \( n \) be a composite integer.
+Show that there exists a prime \( p \) dividing \( n \), with \( p \leq n^{1/2} \).
 
-% Intentionally left blank
-\newpage
-\thispagestyle{empty}
-\mbox{}
-\vfill
-\begin{center}
-    \textit{This page is left intentionally blank.}
-\end{center}
-\vfill
-\newpage
+\begin{greenbox}
+    \textit{Proof:} Let $n$ be a composite integer $\therefore$ $n = ab$ for some integers $a, b\mid 1 < a, b < n$.\\
+    $a,b \leq n^{1/2}$ must hold, or else $ab > n$.\\
+
+    \noindent
+    $n>0$ $\therefore n$ can factor to powers of primes $p$ (Fundamental Theorem of Arithmetic).
+    If $p$ is a composite, factor again until a single prime $p'$ is found. $p'\mid p$ then $p' \mid n$ and $p' \leq n^{1/2}$. \hfill \(\blacksquare\).
+\end{greenbox}
+
+
+
 
 
 
