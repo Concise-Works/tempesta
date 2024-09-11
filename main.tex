@@ -4,7 +4,7 @@
 \begin{document}
 
 \noindent
-\textcolor{black!50}{\texttt{CS235: pset-1, Section 1 \#2, 7, 11, 14 (Due: September 12th)}}
+\textcolor{black!50}{\texttt{Christian Rudder CS235: pset-1, Section 1 \#2, 7, 11, 14 (Due: September 12th):}}
 
 \vspace{2em}
 \noindent
@@ -13,11 +13,11 @@ Show that there exists a prime \( p \) dividing \( n \), with \( p \leq n^{1/2} 
 
 \begin{greenbox}
     \textit{Proof:} Let $n$ be a composite integer $\therefore$ $n = ab$ for some integers $a, b\mid 1 < a, b < n$.\\
-    $a,b \leq n^{1/2}$ must hold, or else $ab > n$.\\
+    $a,b \leq n^{1/2}$ must hold, or else $ab > n$. For lost of generality, let $a \leq b$.\\
 
     \noindent
     $n>0$ $\therefore n$ can factor to powers of primes $p$ (Fundamental Theorem of Arithmetic).
-    If $p$ is a composite, factor again until a single prime $p'$ is found. $p'\mid p$ then $p' \mid n$ and $p' \leq n^{1/2}$. \hfill \(\blacksquare\)
+    If $p$ is a composite, factor again until a single prime $p'$ is found. $p'\mid a$ or $b$ then $p' \mid n$ and $p' \leq n^{1/2}$. \hfill \(\blacksquare\)
 \end{greenbox}
 
 \noindent
