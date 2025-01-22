@@ -1,0 +1,92 @@
+Cybersecurity: A Comprehensive Guide
+
+Chapter 1: Introduction to Cybersecurity
+- What is Cybersecurity?
+- History of Cybersecurity and the Internet
+- Why Cybersecurity Matters in the Modern World
+
+Chapter 2: Networking Fundamentals
+- The Birth of the Internet
+  - HTTP and the Early Web
+- Understanding Protocols and Layers
+  - Internet Protocol (IP)
+  - DNS: How Names Resolve to Addresses
+  - Protocols: TCP/IP, UDP, and Layers of Networking
+- How Information is Sent
+  - Packets, ACK, SYN, and the Three-Way Handshake
+  - Firewalls and Network Address Translation (NAT)
+- Basic Networking Tools (ping, traceroute, Wireshark)
+
+Chapter 3: Encryption and Data Security
+- What is Encryption?
+  - The Evolution of Encryption: From Enigma to RSA
+  - One-Time Pads and Symmetric vs. Asymmetric Encryption
+- Encryption in Practice
+  - HTTP vs. HTTPS: The Role of TLS
+  - IP Security (IPsec) vs. Application Layer Security
+- Key Concepts
+  - Integrity vs. Authentication
+  - Keys: Private, Public, and Shared
+  - Randomness in Encryption (Penguin Picture Example)
+- Digital Security Mechanisms
+  - Message Authentication Codes (MACs)
+  - Digital Signatures
+  - Hash Functions: SHA, MD5, and Their Roles
+
+Chapter 4: Common Attacks and Vulnerabilities
+- Web Application Attacks
+  - Cross-Site Scripting (XSS)
+  - SQL Injection
+  - Command Injection
+- Exploitation Techniques
+  - Man-in-the-Middle (MITM) Attacks
+  - Tracking Pixels and Browser Fingerprinting
+- Authentication Exploits
+  - Session Hijacking: Stealing Cookies
+  - Weak Password Practices and Dictionary Attacks
+
+Chapter 5: Secure Application Development
+- Principles of Secure Coding
+- Input Validation and Sanitization
+- Secure Authentication and Authorization
+- Managing Cookies and Sessions
+
+Chapter 6: Real-World Security Practices
+- System Security
+  - Operating System Hardening
+  - Security Patches and Updates
+- Network Security
+  - Virtual Private Networks (VPNs)
+  - Intrusion Detection and Prevention Systems (IDS/IPS)
+- Data Security
+  - Backups and Disaster Recovery
+  - Managing Keys and Certificates
+
+Chapter 7: Advanced Topics in Cryptography
+- Modern Cryptographic Algorithms (AES, Elliptic Curve Cryptography)
+- Zero-Knowledge Proofs
+- Blockchain Technology and Cryptocurrencies
+
+Chapter 8: Ethical Hacking and Penetration Testing
+- Introduction to Ethical Hacking
+- Reconnaissance and Vulnerability Scanning
+- Exploiting Vulnerabilities and Reporting
+
+Chapter 9: Legal and Ethical Considerations
+- Cybersecurity Laws and Regulations
+- Privacy and Data Protection (GDPR, CCPA, etc.)
+- Ethical Dilemmas in Cybersecurity
+
+Chapter 10: The Future of Cybersecurity
+- Emerging Threats and Technologies
+- AI in Cybersecurity: Opportunities and Risks
+- The Role of Quantum Computing in Cryptography
+
+
+
+bindings:
+DNS, Certs, AS announcement., phishing site
+
+TOTP:
+  fails for phishing website TOTP typing it into the wrong
+  site.
